@@ -148,6 +148,13 @@ docker-compose up -d
 docker-compose down
 ```
 
+### PostgreSQL Port
+Docker PostgreSQL runs on **5433** to avoid conflicts with local installations.
+
+Connection string:
+postgresql://postgres:postgres@localhost:5433/tijara
+
+
 This guarantees identical environments across Mac and Windows.
 
 🔐 Authentication Strategy

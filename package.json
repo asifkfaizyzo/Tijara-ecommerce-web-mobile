@@ -11,9 +11,11 @@
     "build": "turbo run build"
   },
   "dependencies": {
-    "@nestjs/config": "^4.0.3"
+    "@nestjs/config": "^4.0.3",
+    "@prisma/client": "^7.3.0"
   },
   "devDependencies": {
+    "prisma": "^7.3.0",
     "turbo": "^2.8.3"
   }
 }
