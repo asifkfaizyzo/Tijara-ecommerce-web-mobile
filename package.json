@@ -1,0 +1,9 @@
+{
+  "name": "tijara",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev": "echo \"dev not configured yet\"",
+    "build": "echo \"build not configured yet\""
+  }
+}
