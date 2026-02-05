@@ -3,12 +3,15 @@
   "private": true,
   "packageManager": "npm@10.8.2",
   "workspaces": [
-    "apps/*",
+    "apps/admin-web",
+    "apps/backend",
     "packages/*"
   ],
   "scripts": {
     "dev": "turbo run dev",
-    "build": "turbo run build"
+    "build": "turbo run build",
+    "dev:admin": "npm run dev --workspace=admin-web",
+    "dev:backend": "npm run dev --workspace=backend"
   },
   "dependencies": {
     "@nestjs/config": "^4.0.3",
