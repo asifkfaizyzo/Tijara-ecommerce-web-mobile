@@ -1,9 +1,10 @@
 {
   "name": "tijara",
   "private": true,
+  "packageManager": "npm@10.8.2",
   "workspaces": ["apps/*", "packages/*"],
   "scripts": {
-    "dev": "echo \"dev not configured yet\"",
-    "build": "echo \"build not configured yet\""
+    "dev": "turbo run dev",
+    "build": "turbo run build"
   }
 }
